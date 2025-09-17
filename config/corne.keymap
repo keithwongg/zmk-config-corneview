@@ -26,6 +26,7 @@
             tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
+            quick-tap-ms = <150>;
         };
         tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
